@@ -1,4 +1,4 @@
-1,�Զ����ǩ
+1,�Զ����ǩshbsbhabhbahbh
 	step1,дһ��java�࣬�̳�SimpleTagSupport�ࡣ
 	step2,��doTag�������棬��д�����߼���
 	step3,������ǩ(.tld�ļ�)
