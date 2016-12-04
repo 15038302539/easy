@@ -1,15 +1,15 @@
-1,自定义标签
-	step1,写一个java类，继承SimpleTagSupport类。
-	step2,在doTag方法里面，编写处理逻辑。
-	step3,描述标签(.tld文件)
+1,锟皆讹拷锟斤拷锟角﹕hbsbhabhbahbh
+	step1,写一锟斤拷java锟洁，锟教筹拷SimpleTagSupport锟洁。
+	step2,锟斤拷doTag锟斤拷锟斤拷锟斤拷锟芥，锟斤拷写锟斤拷锟斤拷锟竭硷拷锟斤拷
+	step3,锟斤拷锟斤拷锟斤拷签(.tld锟侥硷拷)
 			<body-content>empty</body-content>
 			<body-content>scriptless</body-content>
 			<body-content>JSP</body-content>
 			注:
-				empty:  该标签没有标签体。
-				scriptless: 有标签体，但是，标签体不能出现
-								java代码(<%  %>,<%=  %>,<%!  %>)。
-				JSP: 有标签体，并且，标签体内可以出现java代码。
-					只有复杂标签技术支持"JSP",简单标签技术只支持
-					empty和scriptless。
-	
+				empty:  锟矫憋拷签没锟叫憋拷签锟藉。
+				scriptless: 锟叫憋拷签锟藉，锟斤拷锟角ｏ拷锟斤拷签锟藉不锟杰筹拷锟斤拷
+								java锟斤拷锟斤拷(<%  %>,<%=  %>,<%!  %>)锟斤拷
+				JSP: 锟叫憋拷签锟藉，锟斤拷锟揭ｏ拷锟斤拷签锟斤拷锟节匡拷锟皆筹拷锟斤拷java锟斤拷锟诫。
+					只锟叫革拷锟接憋拷签锟斤拷锟斤拷支锟斤拷"JSP",锟津单憋拷签锟斤拷锟斤拷只支锟斤拷
+					empty锟斤拷scriptless锟斤拷
+	///
