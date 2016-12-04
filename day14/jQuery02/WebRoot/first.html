@@ -1,0 +1,45 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript" src="js/jquery-1.4.3.js">
+</script>
+<script type="text/javascript">
+	function f1(){
+		//变量以$开头，只是为了强调返回值是一个
+		//jQuery对象。
+		var $obj = $('#d1');
+		//调用jQuery对象的方法或者属性
+		$obj.css('font-size','80px');
+	}
+	
+	function f2(){
+		//$('#d1').css('font-size','80px');
+		//$('#d1').css('color','red');
+		
+		//以上代码可以简化为 
+		$('#d1').css('font-size','80px').css('color','green');
+	}
+	
+	function f3(){
+		var obj = document.getElementById('d1');
+		//dom对象 ---> jQuery对象
+		var $obj = $(obj);
+		$obj.html('Hello Java');
+	}
+	
+	function f4(){
+		var $obj = $('#d1');
+		//jQuery对象 ---> dom对象
+		//var obj = $obj.get(0);
+		//或者
+		var obj = $obj.get()[0];
+		obj.innerHTML = 'Hello Perl';
+	}
+</script> 
+</head>
+<body style="font-size:30px;">
+	<div id="d1">Hello jQuery</div>
+	<a href="javascript:;" onclick="f4();">ClickMe</a>
+</body>
+</html>

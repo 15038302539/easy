@@ -1,0 +1,48 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript" 
+src="../js/jquery-1.4.3.js"></script>
+<script type="text/javascript">
+	function f1(){
+		$('#form1 input:disabled').attr('disabled',false);
+	}
+	function f2(){
+		$('#form1 input:enabled').attr('disabled',true);
+	}
+	function f3(){
+		var v1 = $('#form2 input:checked').val();
+		alert(v1);
+	}
+	
+	function f4(){
+		var v1 = $('#form3 option:selected').val();
+		alert(v1);
+	}
+</script>
+</head>
+<body style="font-size:30px;">
+	<form id="form1">
+		username:<input name="username"/><br/>
+		name:<input name="name" disabled="disabled"/>
+	</form>
+	
+	<form id="form2">
+		性别:男<input type="radio" name="gender" 
+		value="m" checked="checked"/>
+		女<input type="radio" name="gender" 
+		value="f"/>
+	</form>
+	
+	<form id="form3">
+		<select>
+			<option value="bj">北京</option>
+			<option value="sh" selected="selected">上海</option>
+			<option value="wh">武汉</option>
+		</select>
+	</form>
+	<a href="javascript:;" onclick="f4()">ClickMe</a>
+	
+</body>
+</html>
