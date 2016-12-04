@@ -1,0 +1,15 @@
+1,自定义标签
+	step1,写一个java类，继承SimpleTagSupport类。
+	step2,在doTag方法里面，编写处理逻辑。
+	step3,描述标签(.tld文件)
+			<body-content>empty</body-content>
+			<body-content>scriptless</body-content>
+			<body-content>JSP</body-content>
+			注:
+				empty:  该标签没有标签体。
+				scriptless: 有标签体，但是，标签体不能出现
+								java代码(<%  %>,<%=  %>,<%!  %>)。
+				JSP: 有标签体，并且，标签体内可以出现java代码。
+					只有复杂标签技术支持"JSP",简单标签技术只支持
+					empty和scriptless。
+	
