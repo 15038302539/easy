@@ -1,0 +1,23 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript" 
+src="../js/jquery-1.4.3.js"></script>
+<script type="text/javascript">
+	function f1(){
+		//$('div:hidden').css('display','block');
+		$('div:hidden').show('slow');
+	}
+	function f2(){
+		$('div:visible').hide(800);
+	}
+</script>
+</head>
+<body style="font-size:30px;">
+	<div>Hello jQuery</div>
+	<div style="display: none;">Hello java</div>
+	<a href="javascript:;" onclick="f2()">ClickMe</a>
+	
+</body>
+</html>

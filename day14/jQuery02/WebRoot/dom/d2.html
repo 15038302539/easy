@@ -1,0 +1,31 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript" 
+src="../js/jquery-1.4.3.js"></script>
+<script type="text/javascript">
+	function f1(){
+		//创建一个新节点
+		var $obj = 
+			$('<div>对待问题的态度,解决问题的思路和方法</div>');
+		//添加
+			$('body').append($obj);
+	}
+	
+	function f2(){
+			$('body').before(
+			'<div>对待问题的态度,解决问题的思路和方法</div>');
+	}
+	
+	function f3(){
+			$('a').before(
+			'<div>对待问题的态度,解决问题的思路和方法</div>');
+	}
+</script>
+</head>
+<body style="font-size:30px;">
+	<a href="javascript:;" onclick="f3()">什么是能力?</a>
+	
+</body>
+</html>

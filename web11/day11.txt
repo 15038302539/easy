@@ -1,15 +1,15 @@
-1,×Ô¶¨Òå±êÇ©
-	step1,Ð´Ò»¸öjavaÀà£¬¼Ì³ÐSimpleTagSupportÀà¡£
-	step2,ÔÚdoTag·½·¨ÀïÃæ£¬±àÐ´´¦ÀíÂß¼­¡£
-	step3,ÃèÊö±êÇ©(.tldÎÄ¼þ)
+1,ï¿½Ô¶ï¿½ï¿½ï¿½ï¿½Ç©
+	step1,Ð´Ò»ï¿½ï¿½javaï¿½à£¬ï¿½Ì³ï¿½SimpleTagSupportï¿½à¡£
+	step2,ï¿½ï¿½doTagï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½æ£¬ï¿½ï¿½Ð´ï¿½ï¿½ï¿½ï¿½ï¿½ß¼ï¿½ï¿½ï¿½
+	step3,ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ç©(.tldï¿½Ä¼ï¿½)
 			<body-content>empty</body-content>
 			<body-content>scriptless</body-content>
 			<body-content>JSP</body-content>
 			×¢:
-				empty:  ¸Ã±êÇ©Ã»ÓÐ±êÇ©Ìå¡£
-				scriptless: ÓÐ±êÇ©Ìå£¬µ«ÊÇ£¬±êÇ©Ìå²»ÄÜ³öÏÖ
-								java´úÂë(<%  %>,<%=  %>,<%!  %>)¡£
-				JSP: ÓÐ±êÇ©Ìå£¬²¢ÇÒ£¬±êÇ©ÌåÄÚ¿ÉÒÔ³öÏÖjava´úÂë¡£
-					Ö»ÓÐ¸´ÔÓ±êÇ©¼¼ÊõÖ§³Ö"JSP",¼òµ¥±êÇ©¼¼ÊõÖ»Ö§³Ö
-					emptyºÍscriptless¡£
-	
+				empty:  ï¿½Ã±ï¿½Ç©Ã»ï¿½Ð±ï¿½Ç©ï¿½å¡£
+				scriptless: ï¿½Ð±ï¿½Ç©ï¿½å£¬ï¿½ï¿½ï¿½Ç£ï¿½ï¿½ï¿½Ç©ï¿½å²»ï¿½Ü³ï¿½ï¿½ï¿½
+								javaï¿½ï¿½ï¿½ï¿½(<%  %>,<%=  %>,<%!  %>)ï¿½ï¿½
+				JSP: ï¿½Ð±ï¿½Ç©ï¿½å£¬ï¿½ï¿½ï¿½Ò£ï¿½ï¿½ï¿½Ç©ï¿½ï¿½ï¿½Ú¿ï¿½ï¿½Ô³ï¿½ï¿½ï¿½javaï¿½ï¿½ï¿½ë¡£
+					Ö»ï¿½Ð¸ï¿½ï¿½Ó±ï¿½Ç©ï¿½ï¿½ï¿½ï¿½Ö§ï¿½ï¿½"JSP",ï¿½òµ¥±ï¿½Ç©ï¿½ï¿½ï¿½ï¿½Ö»Ö§ï¿½ï¿½
+					emptyï¿½ï¿½scriptlessï¿½ï¿½
+	///

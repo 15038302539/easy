@@ -1,0 +1,41 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript" 
+src="../js/jquery-1.4.3.js"></script>
+<script type="text/javascript">
+	function f1(){
+		$('table tr:first').css('background-color','#cccccc');
+		$('tbody tr:even').css('background-color','#fff8dc');
+		$('tbody tr:odd').css('background-color','#f0f0f0');
+	}
+	
+	function f2(){
+		$('tbody tr:eq(1) td:eq(1)')
+		.css('background-color','yellow')
+		.css('font-style','italic');
+	}
+	
+	function f3(){
+		$('tbody tr:not(#tr2)').css('font-style','italic');
+	}
+</script>
+</head>
+<body style="font-size:30px;">
+	<table border="1" width="60%" cellpadding="0" 
+	cellspacing="0">
+		<thead>
+			<tr><td>姓名</td><td>薪水</td></tr>
+		</thead>
+		<tbody>
+			<tr><td>过儿</td><td>2000</td></tr>
+			<tr id='tr2'><td>龙儿</td><td>1000</td></tr>
+			<tr><td>蓉儿</td><td>3000</td></tr>
+			<tr><td>静儿</td><td>2400</td></tr>
+		</tbody>
+	</table>
+	<a href="javascript:;" onclick="f3()">ClickMe</a>
+	
+</body>
+</html>

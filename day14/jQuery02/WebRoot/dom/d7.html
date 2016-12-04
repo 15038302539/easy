@@ -1,0 +1,35 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Insert title here</title>
+<style>
+	.s1{
+		font-size:60px;
+	}
+</style>
+<script type="text/javascript" 
+src="../js/jquery-1.4.3.js"></script>
+<script type="text/javascript">
+	$(fn);
+	function fn(){
+		$('#a1').click(f3);
+	}
+	function f1(){
+		$('#d1').attr('class','s1');
+	}
+	function f2(){
+		//$('#d1').attr('class','s1').attr('style','color:blue;');
+		$('#d1').attr({'class':'s1','style':'color:yellow;'});
+	}
+	function f3(){
+		$('#d1').attr('class','s1');
+		$('#d1').removeAttr('class');
+	}
+</script>
+</head>
+<body style="font-size:30px;">
+	<div id="d1" >Hello jQuery</div>
+	<a href="javascript:;" id="a1">ClickMe</a>
+	
+</body>
+</html>
