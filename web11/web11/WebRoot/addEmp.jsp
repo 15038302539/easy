@@ -9,7 +9,7 @@ contentType="text/html;charset=utf-8" %>
 			href="css/style.css" />
 	</head>
 	<body>
-		<div id="wrap">
+		<div id="wrap">sssaa
 			<div id="top_content">
 				<%@include file="header.jsp" %>
 				<div id="content">
